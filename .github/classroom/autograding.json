@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Exercise One",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise One\r\n16",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Two",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Two\r\n2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Three",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Three\r\n16",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Four",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Four\r\n6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Five",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Five\r\n4.25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Six",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Six\r\n25.5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Seven",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Seven\r\n-3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Eight",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Eight[\\n\\r]+[-0-9\\.$\\h\\n]+",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
