@@ -10,14 +10,14 @@ public class Main {
         // - Print the number 16 to the console.
         //
         // Write your code here 
-
+        System.out.println(16);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Two");
         // - Print the result of the expression six divided by three to the console.
         //
         // Write your code here 
-
+        System.out.println(6 / 3);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Three");
@@ -25,21 +25,23 @@ public class Main {
         //
         // Write your code here 
 
-        System.out.println(1 + 3 * 4);
+        System.out.println((1 + 3) * 4);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Four");
         // - Un-comment the following variable, and then on the next line use System.out.println() to print it to the console.
         // Write your code here 
 
-        // int myFavoriteNumber = 6;
+        int myFavoriteNumber = 6;
+        System.out.println(myFavoriteNumber);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Five");
         // - create an double variable called "otherNumber", assign the number 4.25 it, and then print it to the console on the next line.
         //
         // Write your code here 
-
+        double otherNumber = 4.25; // I did not add D at the end of the number because I read it is optional. :)
+        System.out.println(otherNumber);
 
 
         // ----------------------------------------------------------------------------------------------
@@ -49,7 +51,8 @@ public class Main {
         // Hint: You can multiply with the * operator: For example, 3 * 5 would be 15
         //
         // Write your code here
-
+        double result = myFavoriteNumber * otherNumber;
+        System.out.println(result);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Seven");
@@ -59,7 +62,10 @@ public class Main {
         // Then Print the difference to the console.  (This should print a negative number!)
         //
         // Write your code here 
-
+        int a = 5;
+        int b = 8;
+        int difference = a - b;
+        System.out.println(difference);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Eight");
@@ -73,8 +79,14 @@ public class Main {
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
         //
         // Write your code here 
-
-
+        int numPets = 3;
+        int numSunglasses = 2;
+        int mealRating = 8;
+        int myLastGrocery = 3;
+        System.out.println(numPets);
+        System.out.println(numSunglasses);
+        System.out.println(mealRating);
+        System.out.println(myLastGrocery);
 
         // When you are done, your console output should match the following: (Except your Exercise 9 will be different.)
         /*
